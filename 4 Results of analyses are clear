@@ -1,2 +1,26 @@
 4 Results of analyses are clear
 
+Lecture notes:
+
+Multiple comparisons: https://docs.google.com/presentation/d/1TcDBpbMHh1dmL9Jwq_51S6U-PyMy-jkBjJGPMsaZrCQ/edit?usp=sharing
+
+Effect size: https://docs.google.com/presentation/d/1alJNwPcJLUBwLnMsrF1bmSIaqm_MCDpq0nYX-L5NHS4/edit?usp=sharing
+
+Comparing to known effects: https://docs.google.com/presentation/d/1ubNBV_EXiHvv-TP3iY4qYaxiPbjFtz2rqu5HkVbTGuQ/edit?usp=sharing
+
+Negative controls : https://docs.google.com/presentation/d/1-TgW9W_lazs9Jx6mZM0CYQBoJWzxU2-8wJOqvgRqbsA/edit?usp=sharing
+
+In this section we consider the results of our analysis. Ideally, the effects will be large and hypothesis test are significant.
+
+Before we discuss further, we should make sure that you have a basic understanding of hypothesis testing. In hypothesis testing, we use a statistic to decide between two hypotheses. We set one as the default hypothesis (null hypothesis) and the other as the alternative. We make it difficult (require lots of evidence) to reject the null hypothesis and conclude the alternative. This is done by setting the chance that we reject the null and conclude the alternative by mistake is low (usually 5%). Often, the result of a hypothesis test is summarized with a p-value. A small p-value (close to 0) supports the alternative while a large one (close to 1) supports the null. We reject the null if our p-value is less than 0.05 if we want to control the probability of incorrectly rejecting the null at 5%.
+
+The result of a hypothesis test is not to be confused with the effect. So, if we're testing whether the means between two groups are different the result of the hypothesis test would be the p-value or the conclusion of the test while the effect is the difference between the means. A confidence interval is an estimate of the effect that incorporates uncertainty.
+
+In this lecture we discuss ways in which the results of our analyses are not clear and some ways to combat that.
+
+First we discuss multiple comparisons. If one preforms lots of hypothesis tests, either from fitting a lot of models or because a lot of things are of interest, then the probability that we see apparently significant findings simply by chance even though they're not actually significant increases. This xkcd comic strip describes this brilliantly https://xkcd.com/882/ In this lecture, I give one solution for combating multiple comparisons, the Bonferroni correction. Here, just multiply your p-values by the number of tests you performed and then consider the p-values. This is the most useful multiple comparisons rule for managers, since it's easy to do on the fly and can be done while discussing reports.
+
+Next we consider the problem of not really knowing how to interpret the significance of an effect or its magnitude. If this is the case, a good strategy is to compare it to other variables with known effects. We consider an example of a hard effect, lead exposure on brain volume loss. Here, we compared the size of this effect to that of aging on brain volume loss, a better understood setting. Then we could make statements like "the lead effect is similar to 1/2 a month increase in age."
+
+Finally, we consider settings where a rather complex processing and analysis stream has been executed. Often in such settings a concern is whether the effect observed is real, or an artifact of the process. Again, we used a brain imaging example for comparison. People often believe that effects in brain imaging are spurious. Therefore often people will run their analyses in the ventricles (ares of the brain where there is no brain matter, just cerebrospinal fluid). This is called running a negative control. A good negative control will be otherwise similar to the real study. For example, the ventricles work in our brain imaging example as they are right in the middle of the brain and subject to all of the processing of other brain regions. In contrast, running images of elbows through the analysis wouldn't be as compelling. You can read more about negative controls here http://study.com/academy/lesson/negative-control-definition-experiment-quiz.html
+
