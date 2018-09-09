@@ -1,5 +1,5 @@
 # Data-Science-in-Real-Life-with-Johns-Hopkins-University
-My Class Notes FINISHED Class 20180909 
+My Class Notes FINISHED Class 20180909 YYYYMMDD
 
 Data Science in Real Life
 Johns Hopkins University
