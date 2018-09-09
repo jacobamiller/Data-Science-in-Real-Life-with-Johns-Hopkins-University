@@ -24,3 +24,33 @@ Next we consider the problem of not really knowing how to interpret the signific
 
 Finally, we consider settings where a rather complex processing and analysis stream has been executed. Often in such settings a concern is whether the effect observed is real, or an artifact of the process. Again, we used a brain imaging example for comparison. People often believe that effects in brain imaging are spurious. Therefore often people will run their analyses in the ventricles (ares of the brain where there is no brain matter, just cerebrospinal fluid). This is called running a negative control. A good negative control will be otherwise similar to the real study. For example, the ventricles work in our brain imaging example as they are right in the middle of the brain and subject to all of the processing of other brain regions. In contrast, running images of elbows through the analysis wouldn't be as compelling. You can read more about negative controls here http://study.com/academy/lesson/negative-control-definition-experiment-quiz.html
 
+Results of analyses are clear
+Quiz, 4 questions
+Question 1
+1point
+1. Question 1
+Potential problems with testing lots of hypotheses until a significant one is found include (check all that apply):
+There are no potential problems in this setting
+Misrepresenting the strength of the findings
+Declaring effects that are not significant as significant by chance
+
+Question 2
+1point
+2. Question 2
+Comparing your effects to familiar ones is useful for
+Mentally calibrating the size of an effect or its significance when a variable under study is not well understood
+Performing two tests for the price of one
+
+Question 3
+1point
+3. Question 3
+Negative control analyses are useful ______________. Check all that apply.
+as a validity check of an effect of interest by looking to see if similar effects occur with the same analysis on variables where an effect is known not to be present
+for evaluating processes to see if spurious effects are obtained
+
+Question 4
+1point
+4. Question 4
+A good negative control analysis will
+have a negative control that is known not to have an effect but is otherwise similar to the variable under study
+will be very different from the variable under study in every respect
