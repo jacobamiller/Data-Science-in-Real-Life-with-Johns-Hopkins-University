@@ -22,3 +22,42 @@ In the absence of any calibration data to evaluate your surrogate, you are left 
 
 Finally, if your surrogate variable is such an unreliable of an estimate of your actual outcome, one must come to the conclusion that it's better to not conduct the study at all.
 
+The Decision is Obvious
+Quiz, 5 questions
+Question 1
+1point
+1. Question 1
+Ideally, a surrogate variable for variable of interest will (check all that apply)
+be unbiased
+be uncorrelated with the desired measurement variable
+have a known or estimable variance around the desired measurement variable
+
+Question 2
+1point
+2. Question 2
+If you get a null result it may be due to (check all that apply)
+low power
+that the null hypothesis is actually correct
+
+Question 3
+1point
+3. Question 3
+A study with a very low sample size will likely have
+low power
+high power
+
+Question 4
+1point
+4. Question 4
+Calculating power after the study has been done and analyzed is
+problematic and should only be done by people well versed in the issues
+not a problem whatsoever
+
+Question 5
+1point
+5. Question 5
+When using surrogate variables, if possible, it's a good idea to (check all that apply):
+consider the role of the surrogate in interpretting the strength of conclusions
+collect some gold standard data to evaluate the validity of the surrogate
+do a sensitivity analysis if a gold standard dataset can't be collected
+use a known variance of the surrogate around the gold standard in the analysis
