@@ -11,3 +11,44 @@ One way to combat confounding is at the stage of design. If we were to randomize
 What can we do when we don't have randomization? Also, if we know and and collect a variable that clearly will be a confounder, shouldn't we incorporate that into our design rather than leave its balance across treatment groups up to chance? These questions are addressed by blocking and adjustment. In a blocked experiment, we randomize within levels of a potential confounding variable. Adjustment is a strategy that is used after the data has been collected. In adjustment, we look at the relationship between the predictor and outcome with levels of the confounding variable held fixed. So, if audience demographics confounds the relationship between our ad campaign and purchases, we look at the relationship within demographics. Regression models do this sort of adjustment for us automatically, with some assumptions. When putting a variable into a regression model, it can have all sorts of effects on the relationship of interest. We go over several examples in the lecture. Read more about blocking here https://en.wikipedia.org/wiki/Blocking_(statistics) and regression adjustment here http://oem.bmj.com/content/62/7/500.full
 
 The final aspect of experimental design is sampling. Ideally one can use random sampling to obtain a sample that, with high probability, is a good representation of the population that you'd like to describe. Often, however, it's impossible to have control over the sampling process of an experiment. Sampling bias occurs when the sample is not indicative of the target population resulting in inferences that are off. We discuss three strategies to work around issues with the sample. First, is random sampling. The second is weighting, the process of allowing certain observations to carry more influence in models. The final is modeling. That is, trying to model the process that are biasing the sample. Read more about sampling bias here https://en.wikipedia.org/wiki/Sampling_bias
+
+The experiment is carefully designed, things to do
+Quiz, 5 questions
+Question 1
+1point
+1. Question 1
+In A/B testing randomization of a treatment is used to (check all that apply):
+To make groups as comparable as possible
+Attempt to balance potential unobserved confounding variables
+To obtain a random sample from the population
+
+Question 2
+1point
+2. Question 2
+Three strategies to combat sampling bias are (check all that apply):
+Random sampling
+Modeling
+Weighting
+Randomizing a treatment
+
+Question 3
+1point
+3. Question 3
+It is generally a good idea to consider possible confounders when considering a significant effect
+False
+True
+
+Question 4
+1point
+4. Question 4
+It's possible for a regression effect to reverse itself after the inclusion of another variable into the model
+False
+True
+
+Question 5
+1point
+5. Question 5
+Blocking and adjustment are tools to:
+To obtain a representative sample from the population.
+Account for variables potentially impacting the estimation of the effect of interest.
+Account for unknown variables that may impact the estimation of the effect of interest.
